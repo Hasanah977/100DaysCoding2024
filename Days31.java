@@ -9,9 +9,9 @@
  */
 public class Days31 {
     public static void main(String[] args) {
-         String a = "234";  // Ini adalah string
-         int intNumber = Integer.parseInt(a);  // Mengubah string menjadi angka
-         System.out.println(intNumber); // Output: 123 (angka)
+         String a = "234";  
+         int intNumber = Integer.parseInt(a); 
+         System.out.println(intNumber);
 
     }
     
