@@ -1,0 +1,13 @@
+ public static void main(String[] args) {
+        int a = 0; 
+
+      while (a < 5) { 
+         System.out.println(a);
+          a++; 
+}
+    }
+}
+//Variabel a diinisialisasi dengan nilai 0.
+//Loop akan berjalan selama a kurang dari 5.
+//Pada setiap iterasi, nilai a dicetak, kemudian ditambah 1 dengan operasi increment (a++).
+//Ketika a mencapai 5, kondisi menjadi false, dan loop berhenti.
