@@ -1,0 +1,16 @@
+public class Days58 {
+    public static void main(String[] args) {
+        int barca = 4; 
+while (barca > 0) {
+    System.out.println(barca); 
+  barca--; 
+}
+
+        System.out.println("loop selesai");
+    }
+}
+
+//Nilai awal variabel count adalah 5.
+//Loop while akan terus berjalan selama kondisi count > 0 bernilai true.
+//Setiap kali loop berjalan, nilai count akan dicetak, kemudian dikurangi 1 (count--).
+//Loop akan berhenti saat nilai count mencapai 0.
