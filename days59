@@ -1,0 +1,16 @@
+public class Days59 {
+    public static void main(String[] args) {
+           List<String> motor = Arrays.asList("Honda", "Yamaha", "Vespa");
+
+        motor.forEach((value) -> {
+            int index = motor.indexOf(value);
+            System.out.println(index + ": " + value);
+        });
+    }
+}
+
+//List<String> motor: Di Java, kita menggunakan List untuk menyimpan daftar elemen karena mendukung metode
+//seperti forEach().
+//Arrays.asList(): Digunakan untuk mengubah array menjadi List.
+//forEach(): Memanfaatkan lambda expression (value) -> {} untuk setiap elemen dalam List.
+//motor.indexOf(value): Mengambil indeks elemen saat ini dalam List.
