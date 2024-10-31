@@ -1,0 +1,23 @@
+public class Days60 {
+ public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int angka;
+
+        do {
+            System.out.print("Masukkan umur anda: ");
+            angka = scanner.nextInt();
+        } while (angka <= 10);
+
+        System.out.println("umur anda adalah " + angka);
+        
+        scanner.close(); // Menutup scanner setelah selesai digunakan
+    }
+}
+
+// Ini adalah loop do...while, yang berfungsi untuk meminta input pengguna sampai kondisinya terpenuhi.
+// do: Kode di dalam blok do akan dijalankan terlebih dahulu.
+// System.out.print("Masukkan umur anda: ");: Menampilkan pesan agar pengguna memasukkan umur.
+// angka = scanner.nextInt();: Menerima input angka dari pengguna, dan menyimpannya dalam variabel angka.
+// while (angka <= 10);: Memeriksa kondisi setelah do selesai dijalankan. Jika angka yang dimasukkan 
+// pengguna kurang dari atau sama dengan 10, loop akan berulang, meminta pengguna untuk memasukkan 
+// ulang umur. Jika angka lebih dari 10, loop berhenti.
